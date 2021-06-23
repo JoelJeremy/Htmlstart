@@ -1,0 +1,24 @@
+body{
+    background-color:yellow;
+    height:1920px;
+    width:1080px;
+}
+
+header {
+    background-color:red;
+    height: 100px;
+    width: 960px;
+}
+
+section {
+    background-color:green;
+    height: 300px;
+    width: 960px;
+}
+
+footer {
+    background-color:black;
+    height: 150px;
+    width: 960px;
+}
+
