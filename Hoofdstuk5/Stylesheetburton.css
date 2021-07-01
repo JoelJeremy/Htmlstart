@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+div#wrapper {
+    margin: auto;
+    width:1000px;
+    background-color: #ffeaea;
+    padding:20px;
+}
+
+body {
+    font-family: "Arial", "sans-serif";
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right:20px;
+}
+
+section.appel, section.shorts {
+    width:50%;
+    float:left;
+}
+
+section.shorts {
+    text-align:right;
+}
+
+section.articles {
+
+}
+
+img.appel {
+    width: 478px;
+}
+
+img.visuals {
+    width: 466px;
+    margin-bottom: 10px; ;
+}
+
+article {
+    display: inline-block;
+    width: 32.8%;
+    padding-right: 25px;
+    vertical-align: top;
+}
+
+article:last-child {
+    padding-right: 5px;
+}
+
+img.football {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 277px;
+}
+
+img.meisje {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:300px;
+}
