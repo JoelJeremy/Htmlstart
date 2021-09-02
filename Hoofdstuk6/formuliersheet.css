@@ -1,0 +1,32 @@
+div.formgroep {
+    widht:50px;
+    padding: 20px;
+}
+
+input {
+    width: 200px;
+}
+
+select {
+    width:200px;
+}
+
+h2 {
+    padding-left: 120px;
+}
+
+section {
+    font-family: "Arial", "sans-serif";
+    border: lightblue solid;
+
+}
+
+form {
+    left: 150px;
+    text-decoration: none;
+}
+
+label {
+    padding-left: 100px;
+    color: lightskyblue;
+}

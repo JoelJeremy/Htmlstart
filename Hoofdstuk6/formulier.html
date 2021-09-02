@@ -2,9 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> burton formulier </title>
+    <title> Formulier </title>
+    <link rel="stylesheet" href="formuliersheet.css">
 </head>
-<body>
 
-</body>
+      <body>
+      <h2> Voorbeeldformulier </h2>
+         <section class="form">
+          <form>
+               <ul>
+                   <li> <label for="voornaam"> Voornaam: </label> </li>
+                   <input type="text" name="voornaam">
+               </ul>
+               <ul>
+                   <li> <label for="tussenvoegsel"> Tussenvoegsel: </label> </li>
+                   <input type="text" name="tussenvoegsel">
+               </ul>
+               <ul>
+                  <li><label for="achternaam"> Achternaam: </label> </li>
+                  <input type="text" name="achternaam">
+               </ul>
+               <ul>
+                   <li> <label for="geslacht"> Geslacht: </label> </li>
+                   <input type="radio" name="Geslacht:" value="man"/> &nbsp;Man
+                   <input type="radio" name="Geslacht:" value="vrouw"/> &nbsp;Vrouw
+               </ul>
+               <ul>
+
+                  <li> <label for="kleurogen"> Oogkleur: </label> </li>
+                  <select>
+                      <option> Groen </option>
+                      <option> licht Bruin </option>
+                      <option> Goud </option>
+                      <option> Blauw </option>
+                  </select>
+              </ul>
+              <ul>
+                  <li> <label for="Datum"> Geboortedatum: </label> </li>
+                  <input type="date" name="geboortedatum"/>
+              </ul>
+          </form>
+         </section> <!--form-->
+
+         <section class="checkbox">
+
+         </section> <!--checkbox-->
+
+         <section class="buttons">
+
+         </section> <!--buttons-->
+      </body>
 </html>
