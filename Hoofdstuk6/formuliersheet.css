@@ -1,24 +1,58 @@
-div.formgroep {
-    widht:50px;
-    padding: 20px;
+input.voornaam {
+    width: 200px;
+    margin-left: 100px;
 }
 
-input {
+lekker {
+    float: right;
+}
+
+input.tussenvoegsel {
     width: 200px;
+    margin-left: 62px;
+}
+
+input.achternaam {
+    width: 200px;
+    margin-left: 85px;
+}
+input {
+    margin:10px;
+}
+
+input.geboorte {
+    width: 200px;
+    margin-left: 58px;
+}
+
+input.man {
+    width: 70px;
+    padding-left: -20px;
+    margin-left: 85px;
+}
+
+input.vrouw {
+    width: 70px;
+    margin-left: -30px;
 }
 
 select {
     width:200px;
+    padding-left: 75px;
+    margin-left: 110px;
+}
+
+textarea {
+    resize: none;
+    margin-left: 200px;
 }
 
 h2 {
-    padding-left: 120px;
+    padding-left: 70px;
 }
 
 section {
     font-family: "Arial", "sans-serif";
-    border: lightblue solid;
-
 }
 
 form {
@@ -27,6 +61,23 @@ form {
 }
 
 label {
-    padding-left: 100px;
+    padding-left: 10px;
     color: lightskyblue;
+}
+
+section.checkbox, section.input {
+    width: 50%;
+    float: left;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section.checkbox {
+    box-sizing: inherit;
+}
+
+section.buttons {
+    padding-top: 300px;
 }

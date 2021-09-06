@@ -5,51 +5,62 @@
     <title> Formulier </title>
     <link rel="stylesheet" href="formuliersheet.css">
 </head>
-
-      <body>
+<body>
+    <form action="https://www.savatarian.com/html5/form.php" method="get">
       <h2> Voorbeeldformulier </h2>
-         <section class="form">
-          <form>
-               <ul>
-                   <li> <label for="voornaam"> Voornaam: </label> </li>
-                   <input type="text" name="voornaam">
-               </ul>
-               <ul>
-                   <li> <label for="tussenvoegsel"> Tussenvoegsel: </label> </li>
-                   <input type="text" name="tussenvoegsel">
-               </ul>
-               <ul>
-                  <li><label for="achternaam"> Achternaam: </label> </li>
-                  <input type="text" name="achternaam">
-               </ul>
-               <ul>
-                   <li> <label for="geslacht"> Geslacht: </label> </li>
-                   <input type="radio" name="Geslacht:" value="man"/> &nbsp;Man
-                   <input type="radio" name="Geslacht:" value="vrouw"/> &nbsp;Vrouw
-               </ul>
-               <ul>
 
-                  <li> <label for="kleurogen"> Oogkleur: </label> </li>
-                  <select>
-                      <option> Groen </option>
-                      <option> licht Bruin </option>
-                      <option> Goud </option>
-                      <option> Blauw </option>
-                  </select>
-              </ul>
-              <ul>
-                  <li> <label for="Datum"> Geboortedatum: </label> </li>
-                  <input type="date" name="geboortedatum"/>
-              </ul>
-          </form>
-         </section> <!--form-->
-
+         <section class="input">
+              <!--input.voornaam-->
+              <label for="voornaam"> Voornaam: </label>
+              <input class="voornaam" type="text" name="voornaam">
+              <br>
+              <!--input.tussenvoegsel-->
+              <label for="tussenvoegsel"> Tussenvoegsel: </label>
+              <input class="tussenvoegsel" type="text" name="tussenvoegsel">
+              <br>
+              <!--imput.achternaam-->
+              <label for="achternaam"> Achternaam: </label>
+              <input class="achternaam" type="text" name="achternaam">
+              <br>
+              <!--imput man/vrouw-->
+              <label for="geslacht"> Geslacht: </label>
+              <input class="man" type="radio" name="Geslacht:" value="man"/> &nbsp;Man
+              <input class="vrouw" type="radio" name="Geslacht:" value="vrouw"/> &nbsp;Vrouw
+              <br>
+              <label for="kleurogen"> Oogkleur: </label>
+              <select name="oogkleur" id="oogkleur">
+                  <option> Groen       </option>
+                  <option> licht Bruin </option>
+                  <option> Goud        </option>
+                  <option> Blauw       </option>
+              </select>
+              <br>
+              <!--geboorte-->
+              <label for="Datum"> Geboortedatum: </label> <input class="geboorte" type="date" name="geboortedatum"/>
+              <br>
+              <!--textarea-->
+              <label class="omschrijving" for="textarea"> Omschrijving: </label>
+              <br>
+              <textarea name="omschrijving:" rows="6" cols="30"> </textarea>
+         </section>
+        <!--checkbox-->
          <section class="checkbox">
-
-         </section> <!--checkbox-->
-
+             <!--lekker-->
+             <label class="lekker" for="Lekker-eten"> lekker eten: </label>
+             <br>
+             <input type="checkbox" name="lekker-eten" value="Pizza">
+             <span class="pizza"> Pizza </span> <br>
+             <input type="checkbox" name="lekker-eten" value="Pasta">
+             <span class="pasta"> Pasta </span>
+             <br>
+             <input type="checkbox" name="lekker-eten" value="Hamburger">
+             <span class="hamburger"> Hamburger </span>
+         </section>
+        <!--buttons-->
          <section class="buttons">
-
-         </section> <!--buttons-->
-      </body>
+             <input type="reset" name="knop" value="Clear" />
+             <input type="submit" name="knop"  value="Submit" />
+         </section>
+    </form>
+</body>
 </html>
