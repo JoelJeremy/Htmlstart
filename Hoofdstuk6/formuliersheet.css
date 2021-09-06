@@ -74,6 +74,10 @@ section.checkbox, section.input {
     box-sizing: border-box;
 }
 
+body {
+    background-color: #ffeaea;
+}
+
 section.checkbox {
     box-sizing: inherit;
 }
