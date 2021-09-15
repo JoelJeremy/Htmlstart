@@ -1,0 +1,65 @@
+h1#Joel{
+    text-align:center;
+    color:purple;
+    border: 2px solid orange;
+}
+
+/*-- this is a black textured background --*/
+#Bodyy {
+    background-image: url("imagesintake/black-gradient-b9-1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white
+;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: purple;
+}
+
+#welcome { text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+div.pianobox {
+    padding: 10px;
+    text-align:center;
+}
+
+#Join { text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    color: white;
+    padding: 10px;
+    background-color: purple;
+    clear: both;
+    border: 10px orange solid;
+    width: 1850px;
+    margin: auto;
+}
+
+
